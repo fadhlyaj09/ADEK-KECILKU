@@ -130,8 +130,8 @@
 
   <div class="container">
     <div class="countdown" id="countdown">
-      <h1>Gasabaran banget si lo, kan gue bilang nnti🫵.<br>
-      BUKANYA NANTI YAH PAS JAM 19:32 WIB, 24 Juli 2025</h1>
+      <h1><span style="color: #d63384;">Gasabaran banget si lo, kan gue bilang nnti 🫵.</span><br><br>
+  <span style="color: #800080;">BUKANYA NANTI YAH PAS JAM 19:32 WIB, 24 Juli 2025</span>/h1>
     </div>
 
     <div class="birthday-content" id="birthdayContent">
