@@ -121,14 +121,12 @@
         font-size: 0.9rem;
       }
     }
-     body > header {
-    display: none !important;
-  }
+    
   </style>
 </head>
 <body>
   <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/f113152d-bde5-4710-a383-3bf6448cfd59.png" alt="Background" class="background-image" id="bgImage" />
-<h1 id="judul" style="color: #ff69b4; font-size: 32px; text-align: center;">ADEK KECILKU</h1>
+
 
   <div class="container">
     <div class="countdown" id="countdown">
