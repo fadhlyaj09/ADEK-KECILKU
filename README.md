@@ -134,7 +134,7 @@
         
         <div class="birthday-content" id="birthdayContent">
             <h1>Selamat Ulang Tahun, Najwa Alya Shafarina yang ke-20!</h1>
-            <p>Semoga hari-harimu penuh kebahagiaan dan berkah tak terhingga.</p>
+            <p>yang pengen banget diklingiin, di igoin, digemesin, disayangin.</p>
             
             <div class="audio-player">
                 <button id="playButton">Putar Musik</button>
@@ -144,8 +144,8 @@
     </div>
 
     <script>
-        // Set the target date and time (July 20, 2025 at 15:40 WIB)
-        const targetDate = new Date('July 20, 2025 15:40:00 GMT+0700');
+        // Set the target date and time (July 20, 2025 at 18:40 WIB)
+        const targetDate = new Date('July 20, 2025 18:40:00 GMT+0700');
         
         function checkTime() {
             const now = new Date();
