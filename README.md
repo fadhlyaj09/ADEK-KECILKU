@@ -186,6 +186,6 @@
         checkTime();
         setInterval(checkTime, 60000);
     </script>
-</body>
-</html>
+    </body>
+    </html>
 
