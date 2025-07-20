@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -129,7 +128,8 @@
     
     <div class="container">
         <div class="countdown" id="countdown">
-            <h1>Gasabaran banget si lo, kan gue bilang nnti. Website ini hanya bisa diakses mulai pukul 15:40 WIB, 20 Juli 2025</h1>
+            <h1>Gasabaran banget si lo, kan gue bilang nnti.
+            Website ini hanya bisa diakses mulai pukul 15:40 WIB, 20 Juli 2025</h1>
         </div>
         
         <div class="birthday-content" id="birthdayContent">
