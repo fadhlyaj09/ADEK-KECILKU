@@ -121,6 +121,9 @@
         font-size: 0.9rem;
       }
     }
+     body > header {
+    display: none !important;
+  }
   </style>
 </head>
 <body>
