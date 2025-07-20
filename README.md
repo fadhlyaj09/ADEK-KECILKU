@@ -131,7 +131,8 @@
             <h1>Gasabaran banget si lo, kan gue bilang nnti.
             Website ini hanya bisa diakses mulai pukul 15:40 WIB, 20 Juli 2025</h1>
         </div>
-        
+        <div class="birthday-content" id="birthdayContent">
+    <img src="najwa.jpg" alt="Najwa Alya Shafarina" style="width: 200px; border-radius: 50%; margin-bottom: 20px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
         <div class="birthday-content" id="birthdayContent">
             <h1>Selamat Ulang Tahun, Najwa Alya Shafarina yang ke-20!</h1>
             <p>yang pengen banget diklingiin, di igoin, digemesin, disayangin.</p>
