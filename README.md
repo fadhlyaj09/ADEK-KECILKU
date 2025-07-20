@@ -130,7 +130,7 @@
   <div class="container">
     <div class="countdown" id="countdown">
       <h1>Gasabaran banget si lo, kan gue bilang nnti.<br>
-      Website ini hanya bisa diakses mulai pukul 15:40 WIB, 20 Juli 2025</h1>
+      Website ini hanya bisa diakses mulai pukul 15:52 WIB, 20 Juli 2025</h1>
     </div>
 
     <div class="birthday-content" id="birthdayContent">
@@ -145,7 +145,7 @@
   </div>
 
   <script>
-    const targetDate = new Date('July 20, 2025 18:40:00 GMT+0700');
+    const targetDate = new Date('July 20, 2025 18:52:00 GMT+0700');
 
     function checkTime() {
       const now = new Date();
