@@ -129,7 +129,7 @@
   <div class="container">
     <div class="countdown" id="countdown">
       <h1>Gasabaran banget si lo, kan gue bilang nnti.<br>
-      Website ini hanya bisa diakses mulai pukul 15:52 WIB, 20 Juli 2025</h1>
+      Website ini hanya bisa diakses mulai pukul 19:05 WIB, 20 Juli 2025</h1>
     </div>
 
     <div class="birthday-content" id="birthdayContent">
@@ -138,13 +138,13 @@
       <p>yang pengen banget diklingiin, di igoin, digemesin, disayangin.</p>
       <div class="audio-player">
         <button id="playButton">Putar Musik</button>
-        <audio id="birthdayAudio" src="songnajwa.mp3"></audio>
+        <audio id="birthdayAudio" src="Karolina.mp3"></audio>
       </div>
     </div>
   </div>
 
   <script>
-    const targetDate = new Date('July 20, 2025 18:52:00 GMT+0700');
+    const targetDate = new Date('July 20, 2025 19:05:00 GMT+0700');
 
     function checkTime() {
       const now = new Date();
