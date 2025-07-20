@@ -132,7 +132,7 @@
     <div class="countdown" id="countdown">
      <h1>
   <span style="color: #d63384;">Gasabaran banget si lo, kan gue bilang nnti 🫵.</span><br><br>
-  <span style="color: #800080;">BUKANYA NANTI YAH PAS JAM 19:40 WIB, 24 Juli 2025</span>
+  <span style="color: #800080;">BUKANYA NANTI YAH PAS JAM 00:01 WIB, 24 Juli 2025</span>
 </h1>
     </div>
 
@@ -148,7 +148,7 @@
   </div>
 
   <script>
-    const targetDate = new Date('July 20, 2025 19:40:00 GMT+0700');
+    const targetDate = new Date('July 24, 2025 00:01:00 GMT+0700');
 
     function checkTime() {
       const now = new Date();
