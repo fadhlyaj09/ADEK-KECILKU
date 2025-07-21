@@ -130,7 +130,7 @@
 
   <div class="countdown" id="countdown">
   <h1>
-    <span style="color: #d63384;">Nanti yah dek, kenapa dibuka lagi sih, ganurut banget deh🫵.</span><br><br>
+    <span style="color: #d63384;"> Kok dibuka lagi? kenapa dibuka lagi sih, ganurut banget deh🫵.</span><br><br>
     <span style="color: #800080;">BUKANYA NANTI YAH PAS JAM 00:01 WIB, 24 Juli 2025</span>
   </h1>
   <h2 style="margin-top: 20px; font-size: 1.8rem; color: #6f42c1;">Waktu tersisa:</h2>
