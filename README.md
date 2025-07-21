@@ -148,7 +148,7 @@
   </div>
 
   <script>
-    const targetDate = new Date('July 21, 2025 19:25:00 GMT+0700');
+    const targetDate = new Date('July 24, 2025 00:00:01 GMT+0700');
 
     function checkTime() {
       const now = new Date();
