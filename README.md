@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="id">
 <head>
   <meta charset="UTF-8" />
@@ -137,7 +136,7 @@
   </div>
 
   <script>
-    // Target: 21 Juli 2025 pukul 19:07 WIB = 21 Juli 12:07 UTC
+    // Target: 24 Juli 2025 pukul 00:01 WIB = 23 Juli 17:01 UTC
     const targetDate = new Date(Date.UTC(2025, 6, 23, 17, 1, 0));
 
     const countdownEl = document.getElementById('countdownTimer');
