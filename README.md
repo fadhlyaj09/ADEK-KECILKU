@@ -128,13 +128,15 @@
   <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/f113152d-bde5-4710-a383-3bf6448cfd59.png" alt="Background" class="background-image" id="bgImage" />
 
 
-  <div class="container">
-    <div class="countdown" id="countdown">
-     <h1>
-  <span style="color: #d63384;">Gasabaran banget si lo, kan gue bilang nnti 🫵.</span><br><br>
-  <span style="color: #800080;">BUKANYA NANTI YAH PAS JAM 00:01 WIB, 24 Juli 2025</span>
-</h1>
-    </div>
+  <div class="countdown" id="countdown">
+  <h1>
+    <span style="color: #d63384;">Nanti yah dek, kenapa dibuka lagi sih, ganurut banget deh🫵.</span><br><br>
+    <span style="color: #800080;">BUKANYA NANTI YAH PAS JAM 00:01 WIB, 24 Juli 2025</span>
+  </h1>
+  <h2 style="margin-top: 20px; font-size: 1.8rem; color: #6f42c1;">Waktu tersisa:</h2>
+  <h1 id="countdownTimer" style="font-size: 2.5rem; color: #d63384;">00:00:00</h1>
+</div>
+
 
     <div class="birthday-content" id="birthdayContent">
       <img src="fotonajwa.jpg" alt="Najwa Alya Shafarina" style="width: 200px; border-radius: 50%; margin-bottom: 20px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
