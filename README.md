@@ -135,54 +135,52 @@
     </div>
   </div>
 
-  <script>
-    // Target: 24 Juli 2025 pukul 00:01 WIB = 23 Juli 17:01 UTC
-    const targetDate = new Date(Date.UTC(2025, 6, 23, 17, 1, 0));
+<script>
+  // Target: 24 Juli 2025 pukul 00:01 WIB
+  const targetDate = new Date('2025-07-24T00:01:00+07:00');
 
-    const countdownEl = document.getElementById('countdownTimer');
-    const countdownContainer = document.getElementById('countdown');
-    const birthdayContent = document.getElementById('birthdayContent');
-    const bgImage = document.getElementById('bgImage');
+  const countdownEl = document.getElementById('countdownTimer');
+  const countdownContainer = document.getElementById('countdown');
+  const birthdayContent = document.getElementById('birthdayContent');
+  const bgImage = document.getElementById('bgImage');
 
-    function pad(num) {
-      return num < 10 ? '0' + num : num;
+  function pad(num) {
+    return num < 10 ? '0' + num : num;
+  }
+
+  function updateCountdown() {
+    const now = new Date().getTime();
+    const distance = targetDate.getTime() - now;
+
+    if (distance <= 0) {
+      countdownContainer.style.display = 'none';
+      birthdayContent.style.display = 'block';
+      bgImage.classList.add('active');
+    } else {
+      const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      countdownEl.innerHTML = `${pad(hours)}:${pad(minutes)}:${pad(seconds)}`;
     }
+  }
 
-    function updateCountdown() {
-      const now = new Date().getTime();
-      const distance = targetDate.getTime() - now;
+  updateCountdown();
+  setInterval(updateCountdown, 1000);
 
-      if (distance <= 0) {
-        countdownContainer.style.display = 'none';
-        birthdayContent.style.display = 'block';
-        bgImage.classList.add('active');
-      } else {
-        const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-        const seconds = Math.floor((distance % (1000 * 60)) / 1000);
-        countdownEl.innerHTML = `${pad(hours)}:${pad(minutes)}:${pad(seconds)}`;
-      }
+  const playButton = document.getElementById('playButton');
+  const audio = document.getElementById('birthdayAudio');
+  let isPlaying = false;
+
+  playButton.addEventListener('click', function () {
+    if (isPlaying) {
+      audio.pause();
+      playButton.textContent = 'Putar Musik';
+    } else {
+      audio.play();
+      playButton.textContent = 'Berhenti';
     }
-
-    // Update setiap detik
-    updateCountdown();
-    setInterval(updateCountdown, 1000);
-
-    // Musik
-    const playButton = document.getElementById('playButton');
-    const audio = document.getElementById('birthdayAudio');
-    let isPlaying = false;
-
-    playButton.addEventListener('click', function () {
-      if (isPlaying) {
-        audio.pause();
-        playButton.textContent = 'Putar Musik';
-      } else {
-        audio.play();
-        playButton.textContent = 'Berhenti';
-      }
-      isPlaying = !isPlaying;
-    });
-  </script>
+    isPlaying = !isPlaying;
+  });
+</script>
 </body>
 </html>
