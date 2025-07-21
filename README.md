@@ -137,7 +137,7 @@
 
 <script>
   // Target: 24 Juli 2025 pukul 00:01 WIB
-  const targetDate = new Date('2025-07-24T00:01:00+07:00');
+const targetDate = new Date("2025-07-24T00:01:00+07:00");
 
   const countdownEl = document.getElementById('countdownTimer');
   const countdownContainer = document.getElementById('countdown');
