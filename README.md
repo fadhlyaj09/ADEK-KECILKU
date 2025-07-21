@@ -131,7 +131,7 @@
   <div class="container">
     <div class="countdown" id="countdown">
      <h1>
-  <span style="color: #d63384;">Nanti yah dek, kenapa dibuka lagi sih, ganurut banget deh🫵.</span><br><br>
+  <span style="color: #d63384;">Kok dibuka lagisih?, gamau sabar banget deh🫵.</span><br><br>
   <span style="color: #800080;">BUKANYA NANTI YAH PAS JAM 00:01 WIB, 24 Juli 2025</span>
 </h1>
     </div>
@@ -139,7 +139,7 @@
     <div class="birthday-content" id="birthdayContent">
       <img src="fotonajwa.jpg" alt="Najwa Alya Shafarina" style="width: 200px; border-radius: 50%; margin-bottom: 20px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
       <h1>Selamat Ulang Tahun, Najwa Alya Shafarina yang ke-20!</h1>
-      <p>yang pengen banget diklingiin, di igoin, digemesin, disayangin.</p>
+      <p>yang pengen banget diklingiin, di igoin, digemesin, disayangin, dikissin.</p>
       <div class="audio-player">
         <button id="playButton">Putar Musik</button>
         <audio id="birthdayAudio" src="Karolina.mp3"></audio>
@@ -148,7 +148,7 @@
   </div>
 
   <script>
-    const targetDate = new Date('July 24, 2025 00:01:00 GMT+0700');
+    const targetDate = new Date('July 21, 2025 00:19:23 GMT+0700');
 
     function checkTime() {
       const now = new Date();
