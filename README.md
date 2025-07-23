@@ -139,7 +139,7 @@
     <div class="birthday-content" id="birthdayContent">
       <img src="fotonajwa.jpg" alt="Najwa Alya Shafarina" style="width: 200px; border-radius: 50%; margin-bottom: 20px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
       <h1>Selamat Ulang Tahun, Najwa Alya Shafarina yang ke-20!</h1>
-      <p>yang pengen banget diklingiin, di igoin, digemesin, disayangin, dikissin.</p>
+      <p>yang pengen banget diklingiin, di igoin, digemesin, disayangin, dikissin. Semoga kebahagian menyertai hari-harimu, Jangan bersedih, aku sayang kamu❤️</p>
       <div class="audio-player">
         <button id="playButton">Putar Musik</button>
         <audio id="birthdayAudio" src="Karolina.mp3"></audio>
@@ -148,7 +148,7 @@
   </div>
 
   <script>
-    const targetDate = new Date('July 24, 2025 00:00:01 GMT+0700');
+    const targetDate = new Date('July 23, 2025 19:58:01 GMT+0700');
 
     function checkTime() {
       const now = new Date();
