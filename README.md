@@ -139,10 +139,16 @@
     <div class="birthday-content" id="birthdayContent">
       <img src="fotonajwa.jpg" alt="Najwa Alya Shafarina" style="width: 200px; border-radius: 50%; margin-bottom: 20px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
       <h1>Selamat Ulang Tahun, Najwa Alya Shafarina yang ke-20!</h1>
-      <p>Yang pengen banget diklingiin, di igoin, digemesin, disayangin, dikissin. Selamat ulang tahun, Najwa Alya Shafarina!
-Hari ini bukan cuma milikmu, tapi juga milik orang-orang yang beruntung punya kamu dalam hidupnya.
-Kamu lucu, kamu hangat, kamu kuat, dan kamu... ngeselin dikit, tapi bikin kangen.
-Di usia 20 ini, semoga semua hal baik mengejarmu kayak aku ngejar notifikasi darimu. 🥺🎉
+      <p>Kamu tahu gak? Kalau ada versi perempuan dari Barcelona, mungkin itu kamu—anggun, elegan, penuh semangat, dan bikin orang pengen balik terus. 💃🌆
+
+Kadang kamu mirip Johnny Orlando: manis, enerjik, dan bikin siapa pun senyum cuma karena denger namamu. Tapi di sisi lain, kamu juga punya sisi dalam kayak Damon Albarn—tenang, puitis, kadang misterius, tapi selalu bikin penasaran.
+
+Dan jujur aja, kalau aku bisa ngobrol sama Kim Hanbin, aku bakal bilang:
+“Hyung, aku punya seseorang yang bikin aku jatuh cinta kayak kamu bikin lirik—tulus dan penuh perasaan. Namanya Najwa.”
+
+Di umur 20 ini, aku gak berharap kamu jadi orang lain. Justru aku ingin kamu tetap jadi Najwa yang pengen diklingiin, diigoin, digemesin, dan disayangin.
+Karena kamu itu bukan cuma spesial...
+Kamu satu-satunya. 💗
 </p>
       <div class="audio-player">
         <button id="playButton">Putar Musik</button>
